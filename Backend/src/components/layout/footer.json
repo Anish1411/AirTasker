@@ -1,0 +1,29 @@
+{
+  "collectionName": "components_layout_footers",
+  "info": {
+    "displayName": "Footer"
+  },
+  "options": {},
+  "attributes": {
+    "Footer_logo_description": {
+      "type": "component",
+      "repeatable": false,
+      "component": "elements.footer-1"
+    },
+    "Footer_Quick_links": {
+      "type": "component",
+      "repeatable": false,
+      "component": "elements.footer-2"
+    },
+    "Footer_Contact_us": {
+      "type": "component",
+      "repeatable": false,
+      "component": "elements.footer-3"
+    },
+    "Footer_social_newsLetter": {
+      "type": "component",
+      "repeatable": false,
+      "component": "elements.footer-4"
+    }
+  }
+}

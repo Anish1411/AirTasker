@@ -1,0 +1,36 @@
+{
+  "collectionName": "components_elements_blog_cards",
+  "info": {
+    "displayName": "Blog Card"
+  },
+  "options": {},
+  "attributes": {
+    "image": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "admin_logo": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "date_posted": {
+      "type": "date"
+    },
+    "heading": {
+      "type": "string"
+    },
+    "url": {
+      "type": "string"
+    },
+    "newTab": {
+      "type": "boolean",
+      "default": true
+    }
+  }
+}

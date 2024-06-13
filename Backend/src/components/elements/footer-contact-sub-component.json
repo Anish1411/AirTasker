@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_elements_footer_contact_sub_components",
+  "info": {
+    "displayName": "Footer-contact-sub-component"
+  },
+  "options": {},
+  "attributes": {
+    "icon": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "text": {
+      "type": "text"
+    }
+  }
+}

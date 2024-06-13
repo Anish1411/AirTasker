@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_elements_social_media_components",
+  "info": {
+    "displayName": "Social Media Component"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "social_icons": {
+      "type": "component",
+      "repeatable": true,
+      "component": "links.social-link"
+    }
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "collectionName": "components_layout_navbars",
+  "info": {
+    "displayName": "Navbar"
+  },
+  "options": {},
+  "attributes": {
+    "Navbar_Logo": {
+      "type": "component",
+      "repeatable": false,
+      "component": "layout.logo"
+    },
+    "Navbar_page_route": {
+      "type": "component",
+      "repeatable": true,
+      "component": "links.page-button"
+    },
+    "Navbar_auth_button": {
+      "type": "component",
+      "repeatable": true,
+      "component": "links.button-link"
+    }
+  }
+}

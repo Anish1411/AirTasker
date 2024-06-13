@@ -1,0 +1,26 @@
+{
+  "collectionName": "components_elements_how_it_works_cards",
+  "info": {
+    "displayName": "How It Works Card",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "index": {
+      "type": "string"
+    },
+    "logo": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    }
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "collectionName": "components_sections_how_it_works",
+  "info": {
+    "displayName": "How It Works"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "cards": {
+      "type": "component",
+      "repeatable": true,
+      "component": "elements.how-it-works-card"
+    }
+  }
+}

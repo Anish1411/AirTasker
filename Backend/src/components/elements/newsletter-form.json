@@ -1,0 +1,23 @@
+{
+  "collectionName": "components_elements_newsletter_forms",
+  "info": {
+    "displayName": "Newsletter Form"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "emailPlaceHolder": {
+      "type": "string"
+    },
+    "submit_icon": {
+      "allowedTypes": [
+        "images",
+        "files"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}

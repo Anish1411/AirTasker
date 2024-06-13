@@ -1,0 +1,20 @@
+{
+  "collectionName": "components_sections_popular_services",
+  "info": {
+    "displayName": "Popular Service"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "string"
+    },
+    "popular-services": {
+      "type": "component",
+      "repeatable": true,
+      "component": "elements.service-card"
+    }
+  }
+}

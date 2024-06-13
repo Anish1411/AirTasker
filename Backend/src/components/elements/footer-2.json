@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_elements_footer_2s",
+  "info": {
+    "displayName": "Footer-2"
+  },
+  "options": {},
+  "attributes": {
+    "heading": {
+      "type": "string"
+    },
+    "quick_links_btn": {
+      "type": "component",
+      "repeatable": true,
+      "component": "links.page-button"
+    }
+  }
+}

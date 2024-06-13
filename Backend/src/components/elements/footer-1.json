@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_elements_footer_1s",
+  "info": {
+    "displayName": "Footer-1"
+  },
+  "options": {},
+  "attributes": {
+    "footer_logo": {
+      "type": "component",
+      "repeatable": false,
+      "component": "layout.logo"
+    },
+    "description": {
+      "type": "text"
+    }
+  }
+}

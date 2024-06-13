@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_links_page_buttons",
+  "info": {
+    "displayName": "Page Button"
+  },
+  "options": {},
+  "attributes": {
+    "url": {
+      "type": "string"
+    },
+    "newTab": {
+      "type": "boolean",
+      "default": false
+    },
+    "text": {
+      "type": "string"
+    }
+  }
+}

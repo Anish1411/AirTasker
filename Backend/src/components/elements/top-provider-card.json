@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_elements_top_provider_cards",
+  "info": {
+    "displayName": "Top Provider Card"
+  },
+  "options": {},
+  "attributes": {
+    "image": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "name": {
+      "type": "string"
+    },
+    "email": {
+      "type": "email"
+    }
+  }
+}

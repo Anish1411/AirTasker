@@ -1,0 +1,36 @@
+{
+  "collectionName": "components_elements_service_cards",
+  "info": {
+    "displayName": "Service Card"
+  },
+  "options": {},
+  "attributes": {
+    "service_tag": {
+      "type": "string"
+    },
+    "rating": {
+      "type": "string"
+    },
+    "bg_IMG": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "service_title": {
+      "type": "string"
+    },
+    "location": {
+      "type": "string"
+    },
+    "price": {
+      "type": "string"
+    },
+    "book_now": {
+      "type": "component",
+      "repeatable": false,
+      "component": "links.button-link"
+    }
+  }
+}

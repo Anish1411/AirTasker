@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_sections_featured_category",
+  "info": {
+    "displayName": "Featured Category"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "string"
+    },
+    "categories": {
+      "type": "component",
+      "repeatable": true,
+      "component": "elements.category-card"
+    },
+    "View_all_btn": {
+      "type": "component",
+      "repeatable": false,
+      "component": "links.button-link"
+    }
+  }
+}
