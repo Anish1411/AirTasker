@@ -16,10 +16,10 @@ const Timings = ({ schedule }) => {
         gutterBottom
         sx={{ fontWeight: "bold", color: "#333", marginRight: 2 }}
       >
-        {schedule.title}
+        {schedule?.title}
       </Typography>
       <List sx={{ color: "#333", flexGrow: 1 }}>
-        {schedule.service_time.map((slot, index) => (
+        {schedule?.service_time?.map((slot, index) => (
           <ListItem key={index}>
             <ListItemText
               primaryTypographyProps={{

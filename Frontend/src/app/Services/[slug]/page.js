@@ -63,10 +63,7 @@ const ServiceDetail = ({ params }) => {
   return (
     <Container>
       <StyledServiceContainer>
-        <Typography
-          variant="h3"
-          sx={{ fontWeight: "bold", color: "#333" }}
-        >
+        <Typography variant="h3" sx={{ fontWeight: "bold", color: "#333" }}>
           Service Details
         </Typography>
         <BreadcrumbContainer>
@@ -127,17 +124,14 @@ const ServiceDetail = ({ params }) => {
             {data.attributes.description}
           </Typography>
 
-          <Box mb={4}>
+          <Box sx={{ marginBottom: "40px" }}>
             <Typography
               variant="h5"
               gutterBottom
-              sx={{ fontWeight: "bold", color: "#333" }}
+              sx={{fontSize: "26px" }}
             >
               Service Provider
             </Typography>
-          </Box>
-
-          <Box>
             <Box
               display="flex"
               justifyContent=" space-between"
