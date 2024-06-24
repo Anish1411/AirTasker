@@ -1,0 +1,23 @@
+{
+  "collectionName": "components_home_page_sections_popular_services",
+  "info": {
+    "displayName": "PopularService",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true,
+      "unique": false
+    },
+    "subtitle": {
+      "type": "string"
+    },
+    "popularservices": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::service.service"
+    }
+  }
+}

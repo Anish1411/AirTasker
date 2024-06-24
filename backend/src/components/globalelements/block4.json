@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_globalelements_block4s",
+  "info": {
+    "displayName": "Block4"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "followLogo": {
+      "type": "component",
+      "repeatable": true,
+      "component": "globalelements.logo"
+    }
+  }
+}

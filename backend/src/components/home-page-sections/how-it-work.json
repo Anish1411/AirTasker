@@ -1,0 +1,34 @@
+{
+  "collectionName": "components_home_page_sections_how_it_works",
+  "info": {
+    "displayName": "HowItWork",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true,
+      "unique": false
+    },
+    "subtitle": {
+      "type": "text"
+    },
+    "workingBlock": {
+      "type": "component",
+      "repeatable": true,
+      "component": "elements.how-it-work-block"
+    },
+    "offerheading": {
+      "type": "string"
+    },
+    "OfferDetails": {
+      "type": "string"
+    },
+    "Button": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.button"
+    }
+  }
+}

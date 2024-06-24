@@ -1,0 +1,26 @@
+{
+  "collectionName": "components_globalelements_block5s",
+  "info": {
+    "displayName": "Block5",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "LabelText": {
+      "type": "string"
+    },
+    "SendLogo": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}

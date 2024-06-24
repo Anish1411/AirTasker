@@ -1,0 +1,29 @@
+{
+  "kind": "singleType",
+  "collectionName": "home_pages",
+  "info": {
+    "singularName": "home-page",
+    "pluralName": "home-pages",
+    "displayName": "HomePage",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "sections": {
+      "type": "dynamiczone",
+      "components": [
+        "home-page-sections.main-section",
+        "home-page-sections.featured-categories",
+        "home-page-sections.featured-services",
+        "home-page-sections.popular-service",
+        "home-page-sections.how-it-work",
+        "home-page-sections.top-providers",
+        "home-page-sections.client-says",
+        "home-page-sections.blogs"
+      ]
+    }
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "collectionName": "components_component_service_informations",
+  "info": {
+    "displayName": "serviceInformation",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "location": {
+      "type": "string"
+    },
+    "price": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "subTitle": {
+      "type": "string"
+    },
+    "mainImage": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "rating": {
+      "type": "integer"
+    }
+  }
+}

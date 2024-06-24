@@ -1,0 +1,30 @@
+{
+  "collectionName": "components_elements_how_it_work_blocks",
+  "info": {
+    "displayName": "HowItWorkBlock",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "string"
+    },
+    "svgImageLogo": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "Number": {
+      "type": "string"
+    }
+  }
+}

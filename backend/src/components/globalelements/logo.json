@@ -1,0 +1,28 @@
+{
+  "collectionName": "components_globalelements_logos",
+  "info": {
+    "displayName": "logo",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "logoImg": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "logoUrl": {
+      "type": "string"
+    },
+    "navigateToNewTab": {
+      "type": "boolean",
+      "default": false
+    }
+  }
+}

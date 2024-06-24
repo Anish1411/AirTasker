@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_globalelements_block2s",
+  "info": {
+    "displayName": "Block2"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "quickLinks": {
+      "type": "component",
+      "repeatable": true,
+      "component": "globalelements.navitems"
+    }
+  }
+}

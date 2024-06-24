@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_globalelements_block3s",
+  "info": {
+    "displayName": "Block3",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "ContactUs": {
+      "type": "component",
+      "repeatable": true,
+      "component": "globalelements.navitems"
+    }
+  }
+}

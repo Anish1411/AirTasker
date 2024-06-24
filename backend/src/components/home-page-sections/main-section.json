@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_home_page_sections_main_sections",
+  "info": {
+    "displayName": "MainSection",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title1": {
+      "type": "string",
+      "required": true,
+      "unique": false
+    },
+    "title2": {
+      "type": "string"
+    },
+    "subtitle": {
+      "type": "string"
+    }
+  }
+}

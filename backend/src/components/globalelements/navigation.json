@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_header_navigations",
+  "info": {
+    "displayName": "Navigation",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "navLogo": {
+      "type": "component",
+      "repeatable": false,
+      "component": "globalelements.logo"
+    },
+    "NavItems": {
+      "type": "component",
+      "repeatable": true,
+      "component": "globalelements.navitems"
+    },
+    "Button": {
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.button"
+    }
+  }
+}
