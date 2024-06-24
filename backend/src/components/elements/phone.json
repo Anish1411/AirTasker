@@ -1,0 +1,28 @@
+{
+  "collectionName": "components_elements_phones",
+  "info": {
+    "displayName": "Phone"
+  },
+  "options": {},
+  "attributes": {
+    "image": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "heading": {
+      "type": "string"
+    },
+    "text1": {
+      "type": "string"
+    },
+    "text2": {
+      "type": "string"
+    }
+  }
+}

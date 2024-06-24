@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_elements_contact_pages",
+  "info": {
+    "displayName": "ContactPage"
+  },
+  "options": {},
+  "attributes": {
+    "Tittle": {
+      "type": "blocks",
+      "required": true
+    }
+  }
+}

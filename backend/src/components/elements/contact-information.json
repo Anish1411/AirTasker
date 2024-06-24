@@ -1,0 +1,24 @@
+{
+  "collectionName": "components_elements_contact_informations",
+  "info": {
+    "displayName": "contact_information"
+  },
+  "options": {},
+  "attributes": {
+    "number": {
+      "type": "component",
+      "repeatable": false,
+      "component": "elements.phone"
+    },
+    "email": {
+      "type": "component",
+      "repeatable": false,
+      "component": "elements.email-address"
+    },
+    "address": {
+      "type": "component",
+      "repeatable": false,
+      "component": "elements.address"
+    }
+  }
+}

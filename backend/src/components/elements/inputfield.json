@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_elements_inputfields",
+  "info": {
+    "displayName": "inputfield",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "label": {
+      "type": "string"
+    },
+    "input": {
+      "type": "string"
+    },
+    "placeholder": {
+      "type": "string"
+    },
+    "type": {
+      "type": "string"
+    },
+    "grid": {
+      "type": "integer"
+    }
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "collectionName": "components_section_forms",
+  "info": {
+    "displayName": "form"
+  },
+  "options": {},
+  "attributes": {
+    "image": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "heading": {
+      "type": "string"
+    },
+    "subheading": {
+      "type": "string"
+    },
+    "input": {
+      "type": "component",
+      "repeatable": true,
+      "component": "elements.inputfield"
+    }
+  }
+}
