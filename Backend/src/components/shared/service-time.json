@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_shared_service_times",
+  "info": {
+    "displayName": "service time"
+  },
+  "options": {},
+  "attributes": {
+    "time": {
+      "type": "string"
+    },
+    "day": {
+      "type": "string"
+    }
+  }
+}

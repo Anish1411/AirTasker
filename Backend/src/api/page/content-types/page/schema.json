@@ -18,7 +18,6 @@
     "contentSections": {
       "type": "dynamiczone",
       "components": [
-        "sections.banner-component",
         "sections.featured-category-component",
         "sections.featured-service",
         "sections.popular-service",

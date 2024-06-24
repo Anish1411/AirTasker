@@ -1,5 +1,4 @@
-"use client";
-import React from "react";
+import React, { useEffect, useState } from "react";
 import Slider from "react-slick";
 import { Box, Container, Typography } from "@mui/material";
 import styled from "styled-components";
@@ -9,7 +8,29 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import { FaAngleLeft, FaAngleRight } from "react-icons/fa";
 
-export default function Services() {
+export default function Services({ initialData }) {
+  const [data, setData] = useState(initialData);
+
+  useEffect(() => {
+    const fetchData = async () => {
+      try {
+        const response = await fetch(
+          "http://localhost:1336/api/services?populate=*"
+        );
+        if (!response.ok) {
+          throw new Error("Failed to fetch data");
+        }
+        const newData = await response.json();
+        console.log(newData.data);
+        setData(newData.data);
+      } catch (error) {
+        console.error("Error fetching data:", error);
+      }
+    };
+
+    fetchData();
+  }, []);
+
   var settings = {
     arrows: true,
     autoplay: true,
@@ -28,17 +49,18 @@ export default function Services() {
           slidesToShow: 2,
           slidesToScroll: 1,
           infinite: true,
-        }
+        },
       },
       {
         breakpoint: 700,
         settings: {
           slidesToShow: 1,
           slidesToScroll: 1,
-        }
-      }
+        },
+      },
     ],
   };
+
   return (
     <Service>
       <Container>
@@ -46,20 +68,20 @@ export default function Services() {
           <Box className="main-heading">
             <Typography className="heading">Featured Services</Typography>
             <Typography className="subheading">
-              Explore the greates our services. You won &apos;t be disappointed
+              Explore the greatest services. You won't be disappointed.
             </Typography>
           </Box>
 
           <Slider {...settings}>
-            {serviceBlock.map((service, index) => (
+            {data?.map((service, index) => (
               <Block
                 key={index}
                 category={service.category}
                 rating={service.rating}
-                imageUrl={service.imageUrl}
-                title={service.title}
-                location={service.location}
-                price={service.price}
+                imageUrl={service?.attributes?.image?.data?.attributes?.name}
+                title={service.attributes.name}
+                location={service.attributes.location}
+                price={service.attributes.price}
               />
             ))}
           </Slider>

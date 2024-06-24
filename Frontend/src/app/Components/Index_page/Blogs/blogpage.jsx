@@ -33,6 +33,8 @@ export default function Blog() {
   );
 }
 
+
+
 const Blogs = styled(Box)`
   padding: 90px 0;
   @media (max-width: 991px) {

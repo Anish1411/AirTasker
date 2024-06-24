@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_sections_service_availabilties",
+  "info": {
+    "displayName": "Service Availabilty"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "service_time": {
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.service-time"
+    },
+    "Book_Service": {
+      "type": "component",
+      "repeatable": false,
+      "component": "links.button-link"
+    }
+  }
+}

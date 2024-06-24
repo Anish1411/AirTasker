@@ -32,8 +32,8 @@ export default function Navbar() {
 
           <List className="navitems">
             {pages.map((page) => (
-              <ListItem className="navitem-items">
-                <Link key={page} href="#" underline="none" className="link">
+              <ListItem key={page} className="navitem-items">
+                <Link href={`/${page}`} underline="none" className="link">
                   <Typography variant="body1" className="navitems-name">
                     {page}
                   </Typography>
@@ -52,7 +52,7 @@ export default function Navbar() {
           </Box>
 
           <Box className="menulogo">
-            <IoIosMenu size="2.5rem"/>
+            <IoIosMenu size="2.5rem" />
           </Box>
         </Box>
 
@@ -106,7 +106,7 @@ const Nav = styled(Box)`
     height: calc(100% - 60px) !important;
   }
   .items {
-    border-bottom: 1px solid #E1E2E5;
+    border-bottom: 1px solid #e1e2e5;
   }
   .item-name {
     font-size: 16px;

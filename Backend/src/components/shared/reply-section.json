@@ -1,0 +1,20 @@
+{
+  "collectionName": "components_shared_reply_sections",
+  "info": {
+    "displayName": "Reply Section"
+  },
+  "options": {},
+  "attributes": {
+    "heading": {
+      "type": "text"
+    },
+    "description": {
+      "type": "string"
+    },
+    "form": {
+      "type": "component",
+      "repeatable": true,
+      "component": "elements.newsletter-form"
+    }
+  }
+}
