@@ -125,11 +125,7 @@ const ServiceDetail = ({ params }) => {
           </Typography>
 
           <Box sx={{ marginBottom: "40px" }}>
-            <Typography
-              variant="h5"
-              gutterBottom
-              sx={{fontSize: "26px" }}
-            >
+            <Typography variant="h5" gutterBottom sx={{ fontSize: "26px" }}>
               Service Provider
             </Typography>
             <Box
@@ -243,10 +239,8 @@ const ServiceDetail = ({ params }) => {
           sx={{
             display: "flex",
             flexDirection: "column",
-            position: "fixed",
-            top: "7rem",
-
-            right: "3rem",
+            position: "sticky",
+            top: "20px",
             width: "20rem",
           }}
         >
